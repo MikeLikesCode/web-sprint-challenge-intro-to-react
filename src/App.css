@@ -1,8 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+/* General Styles */
+
+*{
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+html,body{
+  font-family: 'Poppins', sans-serif;
+}
+
 .App {
   text-align: center;
+  color:white;
 }
 .Header {
-  color: #443e3e;
-  text-shadow: 1px 1px 5px #fff;
+  margin: 0 0 15px 0;
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: 1px;
 }
-/* write your parent styles in here for your App.js */
